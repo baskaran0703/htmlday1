@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income and Tax Calculator</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="body">
+    <div class="cont">
+        <div class="b">
+            <button onclick="" >Home</button>
+        </div>
+        <div class="b">
+            <button onclick="">About Us</button>
+        </div>
+        <div class="b">
+            <button onclick="">Taxpayer's Charter</button>
+        </div>
+        <div class="b">
+                <button onclick="">Forms/Downloads</button>
+        </div>
+        <div class="b">
+            <button onclick="">Tax e-services</button>
+        </div>
+        <div class="b">
+            <button onclick="">Publicity</button>
+        </div>
+        <div class="b">
+            <button onclick="tnca.cricket">Compaign</button>
+        </div>
+        <div class="b">
+            <button onclick="">Contacts</button>
+        </div>
+        <div class="b">
+            <button onclick="">Feedback</button>
+        </div>
+        </div>
+
+        <div class="cont2">
+            <div class="c">
+                <button onclick="">Income Tax Department</button>
+            </div>
+            <div class="c">
+                <button onclick="">Tax Tools</button>
+            </div>
+        </div>
+    <form>
+    <div id="pre-head">
+         <div class="line1"><p>(As amended upto Finance Act, 2022)</p></div>
+    </div>
+
+    <div class="container">
+
+    <div class="box">
+        <h1>Income and Tax Calculator</h1><span class="side-head">
+            "click here to view relevent" <a href="">"act"</a> & <a href="">"rule"</a>
+        </span>
+    </div>
+        <div class="box">
+        <label for="assessment_year">Assessment Year</label>
+        <select name="assessment_year" id="assessment_year" >
+            <option value="select">select</option>
+            <option value="2023-2024">2023-2024</option>
+            <option value="2022-2023">2022-2023</option>
+            <option value="2021-2022">2021-2022</option>
+            <option value="2020-2021">2020-2021</option>
+            <option value="2019-2020">2019-2020</option> 
+        </select><br>
+       </div>
+        <div class="box">
+        <label for="tax payer">Tax Payer</label>
+        <select name="tax payer" id="tax payer">
+            <option value="select">Select</option>
+            <option value="individual">individual</option>
+            <option value="huf">HUF</option>
+        </select><br></div>
+        <div class="box">
+        <label for="category">Male/ Female/ Senior Citizen</label>
+        <select name="category" id="category">
+            <option value="select">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="senior citizen">Senior Citizen</option>
+            <option value="super senior citizen">Super Senior Citizen</option>
+        </select><br></div>
+        <div class="box">
+        <label for="resident">Residential Status</label>
+        <select name="resident" id="resident">
+            <option value="select">Select</option>
+            <option value="resident">Resident</option>
+            <option value="non-resident">Non-Resident</option>
+        </select><br></div>
+        <div class="box">
+            <label for="income">Income From Salary</label>
+            <input type="number" name="income" id="income" >
+        </div>
+        <div class="box">
+           <label for="income2">Income From House Property <button onclick="">i</button></label>
+           <input type="number" id="income2" name="income2">
+        </div>
+        <div class="box">
+            <label for="capital">Capital Gains</label>
+            <input type="number" id="capital" name="capital" value="0">
+        </div>
+        <div class="box">
+            <label for="other income">Income From other Sourse</label>
+            <input type="number" id="other income" name="other income">
+        </div>
+        <div class="box">
+            <label for="profit">Profits and Gains of Business or Profession (enter profit only)</label>
+            <input type="number" id="profit" name="profit">
+        </div>
+        <div class="box">
+            <label for="agri income">Agricultural Income</label>
+            <input type="number" id="agri income" name="agri income">
+        </div>
+        <div class="box">
+            <label for="deduction">Deductiion</label>
+            <input type="number" id="deduction" name="deduction" value="0">
+        </div>
+        <div class="box">
+            <label for="net">Net Taxable Amount</label>
+            <input type="number" id="net" name="net">
+        </div>
+        <div class="box">
+            <label for="lab1">Income Liable to Tax at Normal Rate ---</label>
+            <input type="number" id="lab1" name="lab1">
+            <input type="number" id="lab1" name="lab1">
+        </div>
+        
+        <div class="box">
+            <label for="lab2">Short Term Capital Gains (Covered u/s 111A) 15%</label>
+            <input type="number" id="lab2" name="lab2">
+            <input type="number" id="lab2" name="lab2">
+        </div>
+        <div class="box">
+            <label for="lab3">Long Term Capital Gains (Charged to tax @ 20%) 20%</label>
+            <input type="number" id="lab3" name="lab3">
+            <input type="number" id="lab3" name="lab3">
+        </div>
+        <div class="box">
+            <label for="lab4">Long Term Capital Gains (Charged to tax @ 10%) 10%</label>
+            <input type="number" id="lab4" name="lab4">
+            <input type="number" id="lab4" name="lab4">
+        </div>
+        <div class="box">
+            <label for="lab5">Winnings from Lottery, Crossword Puzzles, etc 30%</label>
+            <input type="number" id="lab5" name="lab5">
+            <input type="number" id="lab5" name="lab5">
+        </div>
+        <div class="box">
+            <label for="lab6">Income Tax</label>
+            <input type="number" id="lab6" name="lab6">
+        </div>
+        <div class="box">
+            <label for="lab7">Surcharge</label>
+            <input type="number" id="lab7" name="lab7">
+        </div>
+        <div class="box">
+            <label for="lab8">Education Cess</label>
+            <input type="number" id="lab8" name="lab8">
+        </div>
+        <div class="box">
+            <label for="lab9">Secondary and higher education cess</label>
+            <input type="number" id="lab9" name="lab9">
+        </div>
+        <div class="box">
+            <label for="lab10">Total Tax Liability</label>
+            <input type="number" id="lab10" name="lab10">
+        </div>
+        <div class="box">
+            <label for="lab11">Due date of submission of return</label>
+            <input type="number" id="lab11" name="lab11">
+        </div>
+        <div class="box">
+            <label for="lab12">Actual date of submission of return/date of completion of assessment</label>
+            <input type="number" id="lab12" name="lab12">
+        </div>
+        <div class="box">
+            <label for="lab13">Relief</label>
+            <input type="number" id="lab13" name="lab13">
+        </div>
+        <div class="box">
+            <label for="lab14">TDS/TCS/MAT (AMT) Credit Utilized</label>
+            <input type="number" id="lab14" name="lab14">
+        </div>
+        <div class="box">
+            <label for="lab15">Detail of tax paid</label>
+            <input type="number" id="lab15" name="lab15">
+        </div>
+        </div>
+        <div class="bottom">
+            <div class="bot1">
+                <button onclick="">Calculate</button>
+            </div>
+            <div class="bot1">
+                <button onclick="">Reset</button>
+            </div>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
